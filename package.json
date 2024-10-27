@@ -1,0 +1,12 @@
+{
+	"devDependencies": {
+		"typescript": "^5.6.3",
+		"tsx": "^4.19.2",
+		"@types/node": "^22.8.1"
+	},
+	"type": "module",
+	"scripts": {
+		"start:server": "tsx watch src/tcp/server-tcp.ts",
+		"start:client": "tsx watch src/tcp/client-tcp.ts"
+	}
+}
